@@ -39,17 +39,13 @@ This Movie Recommendation System allows users to discover new movies based on th
 To get started with the Movie Recommendation System, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/Movie-Recommendation-System-using-Streamlit.git
    cd Movie-Recommendation-System-using-Streamlit
    ```
-2. Install the required packages:
 
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Ensure you have Streamlit installed. If not, install it:
+2. Ensure you have Streamlit installed. If not, install it:
 
    ```
    pip install streamlit
@@ -57,15 +53,19 @@ To get started with the Movie Recommendation System, follow these steps:
 
 ## Usage
 
-To run the application, use the following command in your terminal:
+Before running the Streamlit application, execute the following Jupyter Notebook to create the necessary similarity model:
 
-```
-streamlit run app.py
-```
+1. Run Main.ipynb to generate the similarity.pkl file.
+
+2. Then, to run the application, use the following command in your terminal:
+
+   ```
+   streamlit run app.py
+   ```
 
 This will start the Streamlit server and open the application in your default web browser.
 
-## How It Works
+### How It Works
 
 1. Data Loading: The application loads a dataset (like MovieLens) containing movie titles, genres, and ratings.
 2. User Input Processing: Users can input their preferences through the interface.
@@ -87,11 +87,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Special thanks to `MovieLens` for providing the dataset.
+- Special thanks to MovieLens for providing the dataset.
 - Thanks to the Streamlit community for their support and resources.
 
-### Notes:
+## Notes:
 
-- Make sure to replace `yourusername` with your actual GitHub username.
+- Make sure to replace yourusername with your actual GitHub username.
 - Adjust the features and technologies based on your specific implementation.
 - Add any additional sections if necessary, like examples of how to use the application or a FAQ.
+
+Feel free to copy and paste this code into your README file! If you need further adjustments, just let me know.
